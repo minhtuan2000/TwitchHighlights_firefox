@@ -95,7 +95,7 @@ body{
     width: 75%;
     height: 90px;
     padding: 5px 0px;
-    margin-left: -3.5px;
+    float:right;
     background-color: #6441a44f;
 }
 
@@ -105,7 +105,7 @@ body{
     width: 75%;
     height: 90px;
     padding: 5px 0px;
-    margin-left: -3.5px;
+    float:right;
     background-color: #6441a4b6;
 }
 
@@ -158,27 +158,4 @@ img{
 
 img:hover{
     opacity: 100%;
-}
-
-#subscribe-container{
-    background-color: #6441a4;
-}
-
-#subscribe-button{
-    display: inline-block;
-    margin: 5px;
-    background-color: gold;
-    color: lightyellow;
-    font-weight: bold;
-    font-size: 14px;
-    padding: 7px 15px;
-    margin-left: 10px;
-    vertical-align: middle;
-}
-
-#subscribe-warning{
-    display: inline-block;
-    width: 190px;
-    color: white;
-    vertical-align: middle;
 }
