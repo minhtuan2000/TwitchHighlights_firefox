@@ -1,6 +1,6 @@
 {
   "name": "Twitch Highlights",
-  "version": "0.2.12.3",
+  "version": "0.2.12.4",
   "description": "Automatically finds highlights from Twitch VODs!",
   "permissions": [
     "activeTab", 
@@ -8,7 +8,6 @@
     "webRequestBlocking",
     "https://highlights.now.sh/api"
   ],
-  "content_security_policy": "script-src 'self' https://www.google-analytics.com; object-src 'self'",
   "browser_action": {
     "default_popup": "popup.html",
     "default_icon": {

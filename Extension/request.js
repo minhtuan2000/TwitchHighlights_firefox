@@ -1,6 +1,4 @@
 function sendRequest(tabId, tabUrl){
-    //Log to analytics
-    ga('send', 'event', "Request", "Send", isBasic.toString());
     //Send a POST request to the server to analyse the video
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "https://highlights.now.sh/api", true);
@@ -83,8 +81,6 @@ function sendRequest(tabId, tabUrl){
 }
 
 function sendReport(email, url, message){
-    ga('send', 'event', "Report", "Send");
-    //Send a POST request with the report message
     let xhr = new XMLHttpRequest();
     xhr.open("POST", "https://highlights.now.sh/api", true);
     xhr.setRequestHeader('Content-type', 'application/json');
