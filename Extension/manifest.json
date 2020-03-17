@@ -1,11 +1,9 @@
 {
   "name": "Twitch Highlights",
-  "version": "0.2.12.4",
+  "version": "0.2.13.0",
   "description": "Automatically finds highlights from Twitch VODs!",
   "permissions": [
     "activeTab", 
-    "webRequest",
-    "webRequestBlocking",
     "https://highlights.now.sh/api"
   ],
   "browser_action": {
